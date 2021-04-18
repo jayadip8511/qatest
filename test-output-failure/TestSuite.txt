@@ -1,0 +1,455 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 96, Failures: 51, Errors: 0, Skipped: 1, Time elapsed: 18,917.378 s <<< FAILURE! - in TestSuite
+com.CallHippo.web.authentication.SignupTest.verifyExpiredLink  Time elapsed: 278.819 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Verify')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bfd33df066fa8a7b352108c0a794fee5
+*** Element info: {Using=xpath, value=//a[contains(text(),'Verify')]}
+	at com.CallHippo.web.authentication.SignupTest.verifyExpiredLink(SignupTest.java:287)
+
+com.CallHippo.web.authentication.LoginTest.validation_for_BlockedUser  Time elapsed: 60.822 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "Subscribe | Callhippo.com". Current title: "Login | Callhippo.com" (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc1553df4951f8bae65465ff68aac5ec
+	at com.CallHippo.web.authentication.LoginTest.validation_for_BlockedUser(LoginTest.java:170)
+
+com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully  Time elapsed: 191.772 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='confirmPassword']' (tried for 60 second(s) with 500 milliseconds interval)
+	at com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully(ForgotPasswordTest.java:254)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='confirmPassword']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1065fcecff3d9cb38651c165e4538e63
+*** Element info: {Using=xpath, value=//input[@name='confirmPassword']}
+	at com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully(ForgotPasswordTest.java:254)
+
+com.CallHippo.web.authentication.MagicLinkTest.verify_MagicLink_with_blocked_user  Time elapsed: 81.506 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "Subscribe | Callhippo.com". Current title: "Login | Callhippo.com" (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 05288a32acd948bad70f1a23e4ca6729
+	at com.CallHippo.web.authentication.MagicLinkTest.verify_MagicLink_with_blocked_user(MagicLinkTest.java:184)
+
+com.CallHippo.Dialer.authentication.DialerLoginTest.number_not_assigned_user_check_validation  Time elapsed: 3.145 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerLoginTest.number_not_assigned_user_check_validation(DialerLoginTest.java:255)
+
+com.CallHippo.Dialer.authentication.DialerForgotPasswordTest.reset_password_without_entering_any_value_in_reset_password_page  Time elapsed: 48.244 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerForgotPasswordTest.reset_password_without_entering_any_value_in_reset_password_page(DialerForgotPasswordTest.java:197)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_Rejected  Time elapsed: 82.905 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_Rejected(NormalCallingTest.java:614)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage  Time elapsed: 90.758 s  <<< FAILURE!
+java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage(NormalCallingTest.java:1010)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_Reject  Time elapsed: 107.287 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.000
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_Reject(NormalCallingTest.java:1407)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser  Time elapsed: 168.907 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser(NormalCallingTest.java:1703)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser(NormalCallingTest.java:1703)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed  Time elapsed: 183.551 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed(NormalCallingTest.java:1929)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed(NormalCallingTest.java:1929)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing  Time elapsed: 117.829 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing(NormalCallingTest.java:2207)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing  Time elapsed: 219.071 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing(NormalCallingTest.java:2264)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing(NormalCallingTest.java:2264)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing  Time elapsed: 124.279 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing(NormalCallingTest.java:2436)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing  Time elapsed: 123.522 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing(NormalCallingTest.java:2551)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running  Time elapsed: 233.927 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running(NormalCallingTest.java:2610)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running(NormalCallingTest.java:2610)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed  Time elapsed: 108.504 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed(NormalCallingTest.java:2858)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing  Time elapsed: 217.118 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing(NormalCallingTest.java:3070)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing  Time elapsed: 121.184 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing(NormalCallingTest.java:3182)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen  Time elapsed: 194.879 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="backSpace"]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen(NormalCallingTest.java:3261)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="backSpace"]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id="backSpace"]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen(NormalCallingTest.java:3261)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen  Time elapsed: 194.819 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="backSpace"]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen(NormalCallingTest.java:3364)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="backSpace"]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id="backSpace"]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen(NormalCallingTest.java:3364)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running  Time elapsed: 128.665 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running(NormalCallingTest.java:3493)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed  Time elapsed: 176.23 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed(NormalCallingTest.java:4158)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed(NormalCallingTest.java:4158)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable  Time elapsed: 110.448 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable(NormalCallingTest.java:5034)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable  Time elapsed: 193.369 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable(NormalCallingTest.java:5119)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable(NormalCallingTest.java:5119)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser  Time elapsed: 100.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser(NormalCallingTest.java:5248)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added  Time elapsed: 85.758 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added(NormalCallingTest.java:5770)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable  Time elapsed: 90.9 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6005)
+
+com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable  Time elapsed: 111.56 s  <<< FAILURE!
+java.lang.AssertionError: expected [Completed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6092)
+
+com.CallHippo.Dialer.Calling.TeamCallingTest.Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user  Time elapsed: 101.102 s  <<< FAILURE!
+java.lang.AssertionError: expected [Missed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user(TeamCallingTest.java:1766)
+
+com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail  Time elapsed: 209.82 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='callendndesbtn  rmvunderline tglmm']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail(TeamCallingTest.java:10798)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='callendndesbtn  rmvunderline tglmm']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70aea226d36a38f2b76b95a6b3e7d9e3
+*** Element info: {Using=xpath, value=//div[@class='callendndesbtn  rmvunderline tglmm']}
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail(TeamCallingTest.java:10798)
+
+com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail  Time elapsed: 56.104 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label test-automation="call_screen_dialpad_btn" class="clropgrey optionindivwid cursor false div_disabled" for="nameDialpadInput">...</label> is not clickable at point (799, 460). Other element would receive the click: <div class="firstoptiondiv">...</div>
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11018)
+
+com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail  Time elapsed: 55.643 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label test-automation="call_screen_dialpad_btn" class="clropgrey optionindivwid cursor false div_disabled" for="nameDialpadInput">...</label> is not clickable at point (799, 460). Other element would receive the click: <div class="firstoptiondiv">...</div>
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11125)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail  Time elapsed: 105.835 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1619)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail  Time elapsed: 111.753 s  <<< FAILURE!
+java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1849)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup  Time elapsed: 61.372 s  <<< FAILURE!
+java.lang.AssertionError: --Client number in web2 Activityfeed page-- expected [+19897188001] but found [+18044094980]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup(CallQueueCallingTest.java:2907)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted  Time elapsed: 135.021 s  <<< FAILURE!
+java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted(CallQueueCallingTest.java:3061)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted  Time elapsed: 196.068 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted(CallQueueCallingTest.java:3150)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted(CallQueueCallingTest.java:3150)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_  Time elapsed: 166.996 s  <<< FAILURE!
+java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_(CallQueueCallingTest.java:3423)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted  Time elapsed: 195.243 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3504)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3504)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted  Time elapsed: 194.614 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3600)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3600)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted  Time elapsed: 272.921 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h3[@test-automation='call_detail_num']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted(CallQueueCallingTest.java:4759)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@test-automation='call_detail_num']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e370a71690b74d55055d97eaea3d95b4
+*** Element info: {Using=xpath, value=//h3[@test-automation='call_detail_num']}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted(CallQueueCallingTest.java:4759)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted  Time elapsed: 183.467 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:4994)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: abafe1f8c017d3d05989642d0f00841e
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:4994)
+
+com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted  Time elapsed: 155.324 s  <<< FAILURE!
+java.lang.AssertionError: --Recording URL in web2 Activityfeed page-- expected [false] but found [true]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:5268)
+
+com.CallHippo.Dialer.Calling.ForwordToDeviceTest.Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser  Time elapsed: 132.292 s  <<< FAILURE!
+java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.ForwordToDeviceTest.Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser(ForwordToDeviceTest.java:1752)
+
+com.CallHippo.web.settings.CallBlockingTest.Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected  Time elapsed: 37.433 s  <<< FAILURE!
+java.lang.AssertionError: expected [Rejected] but found [Cancelled]
+	at com.CallHippo.web.settings.CallBlockingTest.Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected(CallBlockingTest.java:379)
+
+com.CallHippo.web.settings.CallBlockingTest.Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings  Time elapsed: 13.637 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.web.settings.CallBlockingTest.Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings(CallBlockingTest.java:704)
+
+com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_bronze_Annually_Plan  Time elapsed: 54.013 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_bronze_Annually_Plan(PriceLimitTest.java:389)
+
+com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Monthly_Plan  Time elapsed: 52.572 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Monthly_Plan(PriceLimitTest.java:451)
+
+com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Annually_Plan  Time elapsed: 54.055 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Annually_Plan(PriceLimitTest.java:512)
+
+com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_Platinum_Annually_Plan  Time elapsed: 52.85 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_Platinum_Annually_Plan(PriceLimitTest.java:574)
+

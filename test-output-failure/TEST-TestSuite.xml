@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18,917.378" tests="96" errors="0" skipped="1" failures="51">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="Data\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation\target\test-classes;C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation\target\classes;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Appit Simple\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Appit Simple\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Appit Simple\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Appit Simple\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Appit Simple\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Appit Simple\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Appit Simple\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.9.0.pr4\jackson-dataformat-xml-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0.pr4\jackson-core-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0.pr4\jackson-annotations-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0.pr4\jackson-databind-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.0.pr4\jackson-module-jaxb-annotations-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;C:\Users\Appit Simple\.m2\repository\com\codoid\products\fillo\1.21\fillo-1.21.jar;C:\Users\Appit Simple\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Appit Simple\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Appit Simple\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Appit Simple\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Appit Simple\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Appit Simple\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Appit Simple\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Appit Simple\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Appit Simple\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\Appit Simple\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Appit Simple\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\Appit Simple\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Appit Simple\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Appit Simple\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongo-java-driver\3.4.1\mongo-java-driver-3.4.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Appit Simple\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Appit Simple\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Appit Simple\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Appit Simple\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Appit Simple\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\Appit Simple\AppData\Local\Temp\surefire18311576049574928247\surefirebooter7675804896365880164.jar C:\Users\Appit Simple\AppData\Local\Temp\surefire18311576049574928247 2020-11-15T00-40-09_578-jvmRun1 surefire7005827907928459442tmp surefire_018128886701010368994tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation\target\test-classes;C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation\target\classes;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Appit Simple\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Appit Simple\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Appit Simple\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Appit Simple\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Appit Simple\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Appit Simple\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Appit Simple\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.9.0.pr4\jackson-dataformat-xml-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0.pr4\jackson-core-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0.pr4\jackson-annotations-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0.pr4\jackson-databind-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.9.0.pr4\jackson-module-jaxb-annotations-2.9.0.pr4.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Appit Simple\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;C:\Users\Appit Simple\.m2\repository\com\codoid\products\fillo\1.21\fillo-1.21.jar;C:\Users\Appit Simple\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Appit Simple\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Appit Simple\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Appit Simple\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Appit Simple\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Appit Simple\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Appit Simple\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Appit Simple\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Appit Simple\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Appit Simple\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\Appit Simple\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Appit Simple\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\Appit Simple\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Appit Simple\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Appit Simple\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Appit Simple\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Appit Simple\.m2\repository\org\mongodb\mongo-java-driver\3.4.1\mongo-java-driver-3.4.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Appit Simple\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\Appit Simple\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Appit Simple\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Appit Simple\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Appit Simple\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Appit Simple\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Appit Simple"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Appit Simple\AppData\Local\Temp\surefire18311576049574928247\surefirebooter7675804896365880164.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="Appit Simple"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Appit Simple\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\APPITS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Users\Appit Simple\.jenkins\workspace\CallHippo-Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Appit Simple\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME/bin;C:\Program Files\Java\jdk-11.0.8/bin;C:\Program Files\Java\jdk-11.0.8/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.8\bin;C:\apache-maven-3.6.3\bin;C:\Users\Appit Simple\AppData\Local\Programs\Git\cmd;C:\Users\Appit Simple\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verifyExpiredLink" classname="com.CallHippo.web.authentication.SignupTest" time="278.819">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Verify&apos;)]&quot;}&#10;  (Session info: chrome=86.0.4240.193)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bfd33df066fa8a7b352108c0a794fee5&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Verify&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Verify')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bfd33df066fa8a7b352108c0a794fee5
+*** Element info: {Using=xpath, value=//a[contains(text(),'Verify')]}
+	at com.CallHippo.web.authentication.SignupTest.verifyExpiredLink(SignupTest.java:287)
+]]></failure>
+    <system-out><![CDATA[java.io.FileNotFoundException: src\main\java\config\Signup.xlsx (The system cannot find the path specified)
+java.io.FileNotFoundException: src\main\java\config\Signup.xlsx (The system cannot find the path specified)
+java.io.FileNotFoundException: src\main\java\config\Signup.xlsx (The system cannot find the path specified)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 28512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381013.263][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:40:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19176
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381063.206][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:41:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validation_for_BlockedUser" classname="com.CallHippo.web.authentication.LoginTest" time="60.822">
+    <failure message="Expected condition failed: waiting for title to contain &quot;Subscribe | Callhippo.com&quot;. Current title: &quot;Login | Callhippo.com&quot; (tried for 60 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bc1553df4951f8bae65465ff68aac5ec" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "Subscribe | Callhippo.com". Current title: "Login | Callhippo.com" (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc1553df4951f8bae65465ff68aac5ec
+	at com.CallHippo.web.authentication.LoginTest.validation_for_BlockedUser(LoginTest.java:170)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Fail - verifyExpiredLink
+Exception while taking screenshot .\ScreenShots\15-11-2020\ Gmail issue \00-46-52  BeforeTest - deleteAllMails.png (The system cannot find the path specified)
+----Need to check Gmail issue - SignupTest - BeforeTest - deleteAllMails----
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3543
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381354.408][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:45:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 20307
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381414.168][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:46:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_password_without_entering_any_value_in_reset_password_page" classname="com.CallHippo.web.authentication.ForgotPasswordTest" time="27.828">
+    <system-out><![CDATA[Screenshot taken...
+Fail - validation_for_BlockedUser
+Exception while taking screenshot .\ScreenShots\15-11-2020\ Gmail issue \00-49-03  BeforeTest - deleteAllMails.png (The system cannot find the path specified)
+----Need to check Gmail issue - SignupTest - BeforeTest - deleteAllMails----
+1
+CDwindow-E77A30182FEAD041B4B03F786896F268
+CDwindow-E77A30182FEAD041B4B03F786896F268
+CDwindow-204CD4F281C7C9EB49081E66E8E73A36
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15293
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381484.786][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:48:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13900
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381545.041][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:49:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_Password_and_login_successfully" classname="com.CallHippo.web.authentication.ForgotPasswordTest" time="32.262">
+    <system-out><![CDATA[Screenshot taken...
+Pass - reset_password_without_entering_any_value_in_reset_password_page
+1
+CDwindow-6010041BD47EB1C13EA6C704EF36075B
+CDwindow-6010041BD47EB1C13EA6C704EF36075B
+CDwindow-8C719768F7AD7A93B86AA72602E03FE8
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31896
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381582.649][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:49:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_Password_successfully" classname="com.CallHippo.web.authentication.ForgotPasswordTest" time="191.772">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;confirmPassword&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='confirmPassword']' (tried for 60 second(s) with 500 milliseconds interval)
+	at com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully(ForgotPasswordTest.java:254)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='confirmPassword']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1065fcecff3d9cb38651c165e4538e63
+*** Element info: {Using=xpath, value=//input[@name='confirmPassword']}
+	at com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully(ForgotPasswordTest.java:254)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Pass - reset_Password_and_login_successfully
+1
+CDwindow-82E4F1B3580D1E8A0D856A86BB8E27AC
+CDwindow-82E4F1B3580D1E8A0D856A86BB8E27AC
+CDwindow-EBB9BF933C7743C4964268BC95A35563
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13936
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381624.761][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:50:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_Password_twice" classname="com.CallHippo.web.authentication.ForgotPasswordTest" time="0">
+    <skipped message="Method ForgotPasswordTest.reset_Password_twice()[pri:14, instance:com.CallHippo.web.authentication.ForgotPasswordTest@4097cac] depends on not successfully finished methods"/>
+    <system-out><![CDATA[Screenshot taken...
+Fail - reset_Password_successfully
+]]></system-out>
+  </testcase>
+  <testcase name="verify_email_validation_with_Registered_email" classname="com.CallHippo.web.authentication.MagicLinkTest" time="3.861">
+    <system-out><![CDATA[Exception while taking screenshot .\ScreenShots\15-11-2020\ Gmail issue \00-54-43  BeforeTest - deleteAllMails.png (The system cannot find the path specified)
+----Need to check Gmail issue - SignupTest - BeforeTest - deleteAllMails----
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3996
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381826.188][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:53:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 49070
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381884.858][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:54:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_MagicLink_on_Gmail_inbox" classname="com.CallHippo.web.authentication.MagicLinkTest" time="23.278">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Registered_email
+1
+CDwindow-14180ACD2BDB6A9ABC2179D95D7B6114
+CDwindow-14180ACD2BDB6A9ABC2179D95D7B6114
+CDwindow-59ED7DA29E313FE1199672FEC1D7FA4C
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41706
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381898.651][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:55:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_MagicLink_with_blocked_user" classname="com.CallHippo.web.authentication.MagicLinkTest" time="81.506">
+    <failure message="Expected condition failed: waiting for title to be &quot;Subscribe | Callhippo.com&quot;. Current title: &quot;Login | Callhippo.com&quot; (tried for 60 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 05288a32acd948bad70f1a23e4ca6729" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "Subscribe | Callhippo.com". Current title: "Login | Callhippo.com" (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 05288a32acd948bad70f1a23e4ca6729
+	at com.CallHippo.web.authentication.MagicLinkTest.verify_MagicLink_with_blocked_user(MagicLinkTest.java:184)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_MagicLink_on_Gmail_inbox
+1
+CDwindow-79B75B524F4806F1D48B3C77C20FE83B
+CDwindow-79B75B524F4806F1D48B3C77C20FE83B
+CDwindow-789F4526AB9EAFE7117797A64D477A73
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5549
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605381931.736][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:55:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="number_not_assigned_user_check_validation" classname="com.CallHippo.Dialer.authentication.DialerLoginTest" time="3.145">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerLoginTest.number_not_assigned_user_check_validation(DialerLoginTest.java:255)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Fail - verify_MagicLink_with_blocked_user
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30384
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382023.035][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:57:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_Add_Credit_Button" classname="com.CallHippo.Dialer.authentication.DialerLoginTest" time="12.068">
+    <system-out><![CDATA[Screenshot taken...
+Fail - number_not_assigned_user_check_validation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30227
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382035.589][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:57:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyTitle" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="0.011">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_Add_Credit_Button
+Exception while taking screenshot .\ScreenShots\15-11-2020\ Gmail issue \00-58-27  BeforeTest - deleteAllMails.png (The system cannot find the path specified)
+----Need to check Gmail issue - SignupTest - BeforeTest - deleteAllMails----
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23584
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382056.785][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:57:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382109.212][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:58:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify_Forgot_Password_Link_in_login_Page" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="0.052">
+    <system-out><![CDATA[Screenshot taken...
+Pass - VerifyTitle
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14160
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382118.530][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:58:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_Back_Signin_link" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.231">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Verify_Forgot_Password_Link_in_login_Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 9377
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382127.670][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:58:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify_Forgot_Password_Fields" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.22">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_Back_Signin_link
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21089
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382138.071][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_email_validation_with_Invalid_email[test](1)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.262">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Verify_Forgot_Password_Fields
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16744
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382148.623][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_email_validation_with_Invalid_email[test.1](2)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.215">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Invalid_email
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 36770
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382158.634][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_email_validation_with_Invalid_email[test@](3)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.232">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Invalid_email
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31672
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382168.930][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_email_validation_with_Invalid_email[test@t](4)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.327">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Invalid_email
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19407
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382179.167][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verify_email_validation_with_Invalid_email[test@t.](5)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.26">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Invalid_email
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13387
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382189.550][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 12:59:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify_Email_is_required_field" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="1.327">
+    <system-out><![CDATA[Screenshot taken...
+Pass - verify_email_validation_with_Invalid_email
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 12038
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382200.443][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:00:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify_with_non_registered_email" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="2.308">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Verify_Email_is_required_field
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7874
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382211.020][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:00:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_password_without_entering_any_value_in_reset_password_page" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="48.244">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerForgotPasswordTest.reset_password_without_entering_any_value_in_reset_password_page(DialerForgotPasswordTest.java:197)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Pass - Verify_with_non_registered_email
+1
+CDwindow-37E42A273B7AEA017B31F0308191B98B
+CDwindow-37E42A273B7AEA017B31F0308191B98B
+CDwindow-F3B6917640E68ECDBDA426C14DF2E553
+Login | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 12212
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382222.555][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:00:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify_with_registered_email1" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="2.819">
+    <system-out><![CDATA[Screenshot taken...
+Fail - reset_password_without_entering_any_value_in_reset_password_page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 44414
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382279.926][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:01:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mismatch_Reset_Password_Validation[12345678, 123456789](1)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="33.52">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Verify_with_registered_email1
+3
+CDwindow-38A34AA2D1ADE437F8A203A689ECDDAB
+CDwindow-38A34AA2D1ADE437F8A203A689ECDDAB
+CDwindow-CF24727C83FBCCEBE9631B2AEB42D6A6
+Login | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7970
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382291.693][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:01:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mismatch_Reset_Password_Validation[!@#$%^&amp;*, !#@$%^&amp;*](2)" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="34.106">
+    <system-out><![CDATA[Screenshot taken...
+Pass - mismatch_Reset_Password_Validation
+1
+CDwindow-E8651261C69D8CE903D77D0211AAE401
+CDwindow-E8651261C69D8CE903D77D0211AAE401
+CDwindow-53F61C65157225FF2F4B88FD2A3931E8
+Login | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15911
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382334.272][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:02:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="short_Password_Validation" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="54.395">
+    <system-out><![CDATA[Screenshot taken...
+Pass - mismatch_Reset_Password_Validation
+1
+CDwindow-8C40F7759E60BA1364124CB87EDE46D6
+CDwindow-8C40F7759E60BA1364124CB87EDE46D6
+CDwindow-60C1588B156E94CA3A1325448999FD1C
+Login | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21863
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382377.662][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:02:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reset_Password_and_login_successfully" classname="com.CallHippo.Dialer.authentication.DialerForgotPasswordTest" time="32.871">
+    <system-out><![CDATA[Screenshot taken...
+Pass - short_Password_Validation
+1
+CDwindow-41358AC177BA5D28DAF1686F12808C74
+CDwindow-41358AC177BA5D28DAF1686F12808C74
+CDwindow-A32AE18139F940495DAE2F6B3868644A
+Login | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16988
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382441.370][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:04:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_Rejected" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="82.905">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_Rejected(NormalCallingTest.java:614)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Pass - reset_Password_and_login_successfully
+Opened webaap session
+Opened webaap session
+Opened phoneAap1 session
+Opened phoneAap2 session
+Opened phoneAap3 session
+Opened webaap signin Page
+Opened webaap signin Page
+Opened phoneAap1 signin page
+loggedin phoneAap1
+Opened phoneAap2 signin page
+loggedin phoneAap2
+Opened phoneAap3 signin page
+loggedin phoneAap3
+loggedin webApp
+not click on user
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 18961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382483.668][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:04:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 2035
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382488.922][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:04:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15819
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382494.104][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:04:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 43685
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382499.296][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:05:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605382504.549][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 1:05:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Missed_after_WelcomeMessage" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="90.758">
+    <failure message="expected [Rejected] but found [Missed]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage(NormalCallingTest.java:1010)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_Rejected
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_Reject" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="107.287">
+    <failure message="timeout: Timed out receiving message from renderer: -0.000&#10;  (Session info: chrome=86.0.4240.193)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 522f019f2debc1410bc64f9c69ca173b" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.000
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_Reject(NormalCallingTest.java:1407)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Missed_after_WelcomeMessage
+]]></system-out>
+    <system-err><![CDATA[[1605383139.084][SEVERE]: Timed out receiving message from renderer: 100.000
+[1605383139.084][SEVERE]: Timed out receiving message from renderer: -0.000
+[1605383139.087][SEVERE]: Timed out receiving message from renderer: -0.000
+]]></system-err>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="168.907">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser(NormalCallingTest.java:1703)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser(NormalCallingTest.java:1703)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_Reject
+]]></system-out>
+    <system-err><![CDATA[[1605383245.136][SEVERE]: Timed out receiving message from renderer: 100.000
+[1605383245.137][SEVERE]: Timed out receiving message from renderer: -0.000
+[1605383245.139][SEVERE]: Timed out receiving message from renderer: -0.000
+]]></system-err>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_UserClosed" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="183.551">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed(NormalCallingTest.java:1929)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed(NormalCallingTest.java:1929)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="117.829">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing(NormalCallingTest.java:2207)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_UserClosed
+ result 1 = 00:22
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="219.071">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing(NormalCallingTest.java:2264)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing(NormalCallingTest.java:2264)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="124.279">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing(NormalCallingTest.java:2436)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing
+ result 1 = 00:22
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="123.522">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing(NormalCallingTest.java:2551)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing
+ result 1 = 00:22
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="233.927">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running(NormalCallingTest.java:2610)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running(NormalCallingTest.java:2610)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="108.504">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed(NormalCallingTest.java:2858)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="217.118">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing(NormalCallingTest.java:3070)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="121.184">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing(NormalCallingTest.java:3182)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="194.879">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;backSpace&quot;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="backSpace"]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen(NormalCallingTest.java:3261)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="backSpace"]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id="backSpace"]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen(NormalCallingTest.java:3261)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="194.819">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;backSpace&quot;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="backSpace"]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen(NormalCallingTest.java:3364)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="backSpace"]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id="backSpace"]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen(NormalCallingTest.java:3364)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="128.665">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running(NormalCallingTest.java:3493)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_IVR_Number_User_Missed" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="176.23">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed(NormalCallingTest.java:4158)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed(NormalCallingTest.java:4158)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="110.448">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable(NormalCallingTest.java:5034)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_IVR_Number_User_Missed
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="193.369">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@test-automation='call_screen_duration']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable(NormalCallingTest.java:5119)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@test-automation='call_screen_duration']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation='call_screen_duration']}
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable(NormalCallingTest.java:5119)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="100.005">
+    <failure message="expected [No Answer] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser(NormalCallingTest.java:5248)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_VoiceMail_Added" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="187.766">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser
+ result 1 = 00:19
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="85.758">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added(NormalCallingTest.java:5770)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_VoiceMail_Added
+ result 1 = 00:04
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="90.9">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6005)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="111.56">
+    <failure message="expected [Completed] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Completed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6092)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_IVR_Number_Number_Custom_Unavailable" classname="com.CallHippo.Dialer.Calling.NormalCallingTest" time="181.689">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable
+ result 1 = 00:00
+ result 1 = 00:04
+All Assert Pass for WEB1
+All Assert Pass for WEB2
+DONE----priority = 49-----
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Reject_Incoming_Reject_By_Both_Users" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="82.79">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Outgoing_Completed_Incoming_Voicemail_IVR_Number_Number_Custom_Unavailable
+not click on user
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40517
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605388612.723][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 2:46:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14703
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605388618.034][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 2:47:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 9178
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605388623.232][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 2:47:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15685
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605388628.409][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 2:47:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48586
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605388633.642][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 2:47:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="101.102">
+    <failure message="expected [Missed] but found [Rejected]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Missed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user(TeamCallingTest.java:1766)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Outgoing_Reject_Incoming_Reject_By_Both_Users
+click on team
+]]></system-out>
+  </testcase>
+  <testcase name="Team_FixedOrder_Outgoing_Rejected_Incoming_Reject_By_Both_Users" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="103.04">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user
+not click on team
+]]></system-out>
+  </testcase>
+  <testcase name="Team_simulteneously_Outgoing_Completed_Incoming_Missed_By_Both_Users_Voicemail" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="202.038">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Team_FixedOrder_Outgoing_Rejected_Incoming_Reject_By_Both_Users
+not click on team
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="209.82">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;callendndesbtn  rmvunderline tglmm&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='callendndesbtn  rmvunderline tglmm']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail(TeamCallingTest.java:10798)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='callendndesbtn  rmvunderline tglmm']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70aea226d36a38f2b76b95a6b3e7d9e3
+*** Element info: {Using=xpath, value=//div[@class='callendndesbtn  rmvunderline tglmm']}
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail(TeamCallingTest.java:10798)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Team_simulteneously_Outgoing_Completed_Incoming_Missed_By_Both_Users_Voicemail
+not click on team
+]]></system-out>
+  </testcase>
+  <testcase name="IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="56.104">
+    <failure message="element click intercepted: Element &lt;label test-automation=&quot;call_screen_dialpad_btn&quot; class=&quot;clropgrey optionindivwid cursor false div_disabled&quot; for=&quot;nameDialpadInput&quot;&gt;...&lt;/label&gt; is not clickable at point (799, 460). Other element would receive the click: &lt;div class=&quot;firstoptiondiv&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=86.0.4240.193)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aa646dddde5825358c8a7b459c4fbdb9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label test-automation="call_screen_dialpad_btn" class="clropgrey optionindivwid cursor false div_disabled" for="nameDialpadInput">...</label> is not clickable at point (799, 460). Other element would receive the click: <div class="firstoptiondiv">...</div>
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11018)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail
+not click on team
+]]></system-out>
+  </testcase>
+  <testcase name="IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail" classname="com.CallHippo.Dialer.Calling.TeamCallingTest" time="55.643">
+    <failure message="element click intercepted: Element &lt;label test-automation=&quot;call_screen_dialpad_btn&quot; class=&quot;clropgrey optionindivwid cursor false div_disabled&quot; for=&quot;nameDialpadInput&quot;&gt;...&lt;/label&gt; is not clickable at point (799, 460). Other element would receive the click: &lt;div class=&quot;firstoptiondiv&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=86.0.4240.193)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: aa646dddde5825358c8a7b459c4fbdb9" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <label test-automation="call_screen_dialpad_btn" class="clropgrey optionindivwid cursor false div_disabled" for="nameDialpadInput">...</label> is not clickable at point (799, 460). Other element would receive the click: <div class="firstoptiondiv">...</div>
+  (Session info: chrome=86.0.4240.193)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11125)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail
+not click on team
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="105.835">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1619)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail
+click on user
+not click on user
+ result 1 = 00:00
+newCallDureationTxt: 00:20
+newCallDureationTxt: 00:23
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 33916
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390537.769][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:18:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 19835
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390543.035][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:19:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 26492
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390548.236][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:19:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 8977
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390553.501][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:19:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 13147
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390558.696][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:19:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15673
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605390563.869][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 3:19:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="111.753">
+    <failure message="Voicemail status not matched expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1849)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail
+ result 1 = 00:00
+newCallDureationTxt: 00:26
+newCallDureationTxt: 00:26
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="61.372">
+    <failure message="--Client number in web2 Activityfeed page-- expected [+19897188001] but found [+18044094980]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: --Client number in web2 Activityfeed page-- expected [+19897188001] but found [+18044094980]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup(CallQueueCallingTest.java:2907)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="135.021">
+    <failure message="--Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted(CallQueueCallingTest.java:3061)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup
+ result 1 = 00:00
+newCallDureationTxt: 00:24
+newCallDureationTxt: 00:35
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="196.068">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted(CallQueueCallingTest.java:3150)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted(CallQueueCallingTest.java:3150)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted
+click on team
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="166.996">
+    <failure message="--Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_(CallQueueCallingTest.java:3423)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted
+ result 1 = 00:00
+newCallDureationTxt: 00:45
+newCallDureationTxt: 00:48
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="195.243">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3504)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3504)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="194.614">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3600)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3600)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Incoming_ongoing_call_Incoming_secondqueued_call_served_to_user_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="209.844">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted
+ result 1 = 00:00
+newCallDureationTxt: 00:46
+newCallDureationTxt: 00:49
+]]></system-out>
+  </testcase>
+  <testcase name="call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="272.921">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h3[@test-automation=&apos;call_detail_num&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h3[@test-automation='call_detail_num']' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted(CallQueueCallingTest.java:4759)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@test-automation='call_detail_num']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e370a71690b74d55055d97eaea3d95b4
+*** Element info: {Using=xpath, value=//h3[@test-automation='call_detail_num']}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted(CallQueueCallingTest.java:4759)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - call_queue_user_busy_with_Incoming_ongoing_call_Incoming_secondqueued_call_served_to_user_and_Accepted
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="183.467">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'callbtn_green rmvunderline tglmm')]' (tried for 100 second(s) with 500 milliseconds interval)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:4994)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'callbtn_green rmvunderline tglmm')]"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: abafe1f8c017d3d05989642d0f00841e
+*** Element info: {Using=xpath, value=//div[contains(@class,'callbtn_green rmvunderline tglmm')]}
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:4994)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted
+ result 1 = 00:00
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted" classname="com.CallHippo.Dialer.Calling.CallQueueCallingTest" time="155.324">
+    <failure message="--Recording URL in web2 Activityfeed page-- expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: --Recording URL in web2 Activityfeed page-- expected [false] but found [true]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:5268)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted
+ result 1 = 00:00
+ result 1 = 00:00
+newCallDureationTxt: 00:32
+newCallDureationTxt: 00:35
+]]></system-out>
+  </testcase>
+  <testcase name="Outgoing_Completed_Incoming_Voicemail_User_Closed_By_FTD" classname="com.CallHippo.Dialer.Calling.ForwordToDeviceTest" time="160.299">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted
+Opened phoneAap3 signin page
+loggedin phoneAap3
+click on user
+not click on user
+ result 1 = 00:00
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3991
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394302.123][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:21:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 47977
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394307.402][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:21:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21004
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394312.598][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:21:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 34434
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394317.796][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:21:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 16081
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394323.013][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:22:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 39596
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394328.194][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:22:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 6829
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394333.388][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:22:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48336
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605394338.601][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:22:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser" classname="com.CallHippo.Dialer.Calling.ForwordToDeviceTest" time="132.292">
+    <failure message="expected [Rejected] but found [Missed]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.ForwordToDeviceTest.Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser(ForwordToDeviceTest.java:1752)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Outgoing_Completed_Incoming_Voicemail_User_Closed_By_FTD
+not click on user
+]]></system-out>
+  </testcase>
+  <testcase name="Team_simulteneously_Outgoing_Reject_Incoming_Reject_By_FdTD_of_Both_Users" classname="com.CallHippo.Dialer.Calling.ForwordToDeviceTest" time="169.5">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser
+not click on user
+click on team
+]]></system-out>
+  </testcase>
+  <testcase name="verify_special_character_not_allow_in_number" classname="com.CallHippo.web.settings.CallBlockingTest" time="8.581">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - Team_simulteneously_Outgoing_Reject_Incoming_Reject_By_FdTD_of_Both_Users
+---elements.size()--1
+==== i ===0
+==== i ===1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 33161
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605395587.901][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:43:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605395600.911][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:43:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3876
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605395613.813][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:43:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14682
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605395623.813][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:43:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validation_for_duplicate_number" classname="com.CallHippo.web.settings.CallBlockingTest" time="10.412">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - verify_special_character_not_allow_in_number
+---elements.size()--0
+]]></system-out>
+  </testcase>
+  <testcase name="Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected" classname="com.CallHippo.web.settings.CallBlockingTest" time="37.433">
+    <failure message="expected [Rejected] but found [Cancelled]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Rejected] but found [Cancelled]
+	at com.CallHippo.web.settings.CallBlockingTest.Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected(CallBlockingTest.java:379)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - validation_for_duplicate_number
+---elements.size()--1
+==== i ===0
+==== i ===1
+]]></system-out>
+  </testcase>
+  <testcase name="Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings" classname="com.CallHippo.web.settings.CallBlockingTest" time="13.637">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.web.settings.CallBlockingTest.Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings(CallBlockingTest.java:704)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected
+---elements.size()--1
+==== i ===0
+==== i ===1
+---ele.size()--1
+]]></system-out>
+  </testcase>
+  <testcase name="validate_PriceLimit_Success_message_for_bronze_Monthly_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="145.635">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings
+---outgoing_pricelimit_edit_Btn.size()--0
+---email1---jayadip+15_11_2020_04_56_59@callhippo.com
+---signUpUserEmailId----jayadip+15_11_2020_04_56_59@callhippo.com
+0
+1
+1
+CDwindow-9F3B4104A151340A0A058C569D6FA956
+CDwindow-DA869146D8775DC727E890939B30003D
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 42582
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605396171.266][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:52:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 45918
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605396230.004][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:53:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 40650
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605396235.270][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:53:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 1092
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605396240.518][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:54:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35712
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605396245.740][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 4:54:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validate_PriceLimit_Success_message_for_bronze_Annually_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="54.013">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.193)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0d087a3b49fb90897524ea97b2392f73&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_bronze_Annually_Plan(PriceLimitTest.java:389)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - validate_PriceLimit_Success_message_for_bronze_Monthly_Plan
+---outgoing_pricelimit_edit_Btn.size()--1
+---email1---jayadip+15_11_2020_05_01_26@callhippo.com
+---signUpUserEmailId----jayadip+15_11_2020_05_01_26@callhippo.com
+]]></system-out>
+  </testcase>
+  <testcase name="validate_PriceLimit_Success_message_for_silver_Monthly_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="52.572">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.193)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0d087a3b49fb90897524ea97b2392f73&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Monthly_Plan(PriceLimitTest.java:451)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - validate_PriceLimit_Success_message_for_bronze_Annually_Plan
+---outgoing_pricelimit_edit_Btn.size()--0
+---email1---jayadip+15_11_2020_05_04_27@callhippo.com
+---signUpUserEmailId----jayadip+15_11_2020_05_04_27@callhippo.com
+]]></system-out>
+  </testcase>
+  <testcase name="validate_PriceLimit_Success_message_for_silver_Annually_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="54.055">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.193)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0d087a3b49fb90897524ea97b2392f73&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Annually_Plan(PriceLimitTest.java:512)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - validate_PriceLimit_Success_message_for_silver_Monthly_Plan
+---outgoing_pricelimit_edit_Btn.size()--0
+---email1---jayadip+15_11_2020_05_07_26@callhippo.com
+---signUpUserEmailId----jayadip+15_11_2020_05_07_26@callhippo.com
+]]></system-out>
+  </testcase>
+  <testcase name="validate_PriceLimit_Success_message_for_Platinum_Annually_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="52.85">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}&#10;  (Session info: chrome=86.0.4240.193)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0d087a3b49fb90897524ea97b2392f73&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifierId']"}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2UA8D8B', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id='identifierId']}
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_Platinum_Annually_Plan(PriceLimitTest.java:574)
+]]></failure>
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - validate_PriceLimit_Success_message_for_silver_Annually_Plan
+---outgoing_pricelimit_edit_Btn.size()--0
+---email1---jayadip+15_11_2020_05_10_27@callhippo.com
+---signUpUserEmailId----jayadip+15_11_2020_05_10_27@callhippo.com
+]]></system-out>
+  </testcase>
+  <testcase name="validate_PriceLimit_Update_Message_for_Platinum_Annually_Plan" classname="com.CallHippo.web.settings.PriceLimitTest" time="46.243">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Fail - validate_PriceLimit_Success_message_for_Platinum_Annually_Plan
+---outgoing_pricelimit_edit_Btn.size()--0
+---outgoing_pricelimit_edit_Btn.size()--0
+---outgoing_pricelimit_edit_Btn.size()--1
+----priceLimitVal---Price Limit : $ 1.0
+]]></system-out>
+  </testcase>
+  <testcase name="dialer_validate_PriceLimit_Error_Message_Call_From_DialPad" classname="com.CallHippo.web.settings.PriceLimitTest" time="89.006">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - validate_PriceLimit_Update_Message_for_Platinum_Annually_Plan
+---outgoing_pricelimit_edit_Btn.size()--1
+---outgoing_pricelimit_edit_Btn.size()--0
+---elements.size()--0
+]]></system-out>
+  </testcase>
+  <testcase name="dialer_validate_PriceLimit_Error_Message_Call_From_Redial" classname="com.CallHippo.web.settings.PriceLimitTest" time="71.28">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - dialer_validate_PriceLimit_Error_Message_Call_From_DialPad
+---outgoing_pricelimit_edit_Btn.size()--1
+---outgoing_pricelimit_edit_Btn.size()--0
+---elements.size()--0
+]]></system-out>
+  </testcase>
+  <testcase name="dialer_validate_PriceLimit_Error_Message_Call_From_CallDetailPage" classname="com.CallHippo.web.settings.PriceLimitTest" time="76.476">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - dialer_validate_PriceLimit_Error_Message_Call_From_Redial
+---outgoing_pricelimit_edit_Btn.size()--1
+---outgoing_pricelimit_edit_Btn.size()--0
+---elements.size()--0
+]]></system-out>
+  </testcase>
+  <testcase name="dialer_validate_PriceLimit_Error_Message_Call_From_AllCalls" classname="com.CallHippo.web.settings.PriceLimitTest" time="74.606">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - dialer_validate_PriceLimit_Error_Message_Call_From_CallDetailPage
+---outgoing_pricelimit_edit_Btn.size()--1
+---outgoing_pricelimit_edit_Btn.size()--0
+---elements.size()--0
+]]></system-out>
+  </testcase>
+  <testcase name="dialer_validate_PriceLimit_Error_Message_Call_From_CallPlanner" classname="com.CallHippo.web.settings.PriceLimitTest" time="88.685">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - dialer_validate_PriceLimit_Error_Message_Call_From_AllCalls
+---outgoing_pricelimit_edit_Btn.size()--1
+---outgoing_pricelimit_edit_Btn.size()--0
+---elements.size()--0
+]]></system-out>
+    <system-err><![CDATA[Nov 15, 2020 5:30:48 AM org.openqa.selenium.interactions.Actions moveToElement
+INFO: When using the W3C Action commands, offsets are from the center of element
+]]></system-err>
+  </testcase>
+  <testcase name="validate_PriceLimit_Is_Not_Set" classname="com.CallHippo.web.settings.PriceLimitTest" time="0.224">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - dialer_validate_PriceLimit_Error_Message_Call_From_CallPlanner
+---outgoing_pricelimit_edit_Btn.size()--1
+]]></system-out>
+  </testcase>
+  <testcase name="signup1" classname="com.CallHippo.web.numberAndUserSubscription.AddNumberTest" time="60.72">
+    <system-out><![CDATA[Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Screenshot taken...
+Pass - validate_PriceLimit_Is_Not_Set
+5
+CDwindow-9EB97A32B66B047A145DB28006AD97F6
+CDwindow-319DDCE67B30A8B53515878F324C5672
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7678
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605398581.861][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 5:33:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_monthly" classname="com.CallHippo.web.numberAndUserSubscription.AddNumberTest" time="267.98">
+    <system-out><![CDATA[Screenshot taken...
+Pass - signup1
+1
+CDwindow-0E3EB54B3817A766C31AAFB2D183712C
+CDwindow-BFE563E0A570DEF8EF5CFAC1979796DA
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 34332
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605398652.469][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 5:34:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Delete_and_add_Standard_number_in_same_month_having_different_price_Plan_period_monthly" classname="com.CallHippo.web.numberAndUserSubscription.AddNumberTest" time="297.738">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_monthly
+1
+CDwindow-4ED297C8E43B353DBF59927AA6867AF4
+CDwindow-F1F1A88B2F4C2F5AF70074C90A5BE188
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605398930.498][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 5:38:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_Annually" classname="com.CallHippo.web.numberAndUserSubscription.AddNumberTest" time="403.771">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Delete_and_add_Standard_number_in_same_month_having_different_price_Plan_period_monthly
+1
+CDwindow-B0E3DF7AAC292F3F1A7711B2880E39F1
+CDwindow-AD7D0AFCCBC1221C28EDE6AD719887C7
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17444
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605399237.748][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 5:43:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Delete_Standard_number_when_number_having_different_price_Plan_period_annually" classname="com.CallHippo.web.numberAndUserSubscription.AddNumberTest" time="267.216">
+    <system-out><![CDATA[Screenshot taken...
+Pass - Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_Annually
+1
+CDwindow-5FB9566938C4F78C0890BBEC101C5EF5
+CDwindow-7D977D1C6F60B115A600C9BF38CB167A
+Dashboard | Callhippo.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21047
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1605399651.431][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 15, 2020 5:50:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

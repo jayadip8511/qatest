@@ -1,0 +1,937 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Failed suite [Suite]</th></tr>
+<tr><td><a href="#t0">Web signup test cases(failed)</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">341,431</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Web login test cases(failed)</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">130,292</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Web forgot password test cases(failed)</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">341,326</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Web magic link test cases(failed)</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">196,807</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Dialer login test cases(failed)</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,662</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Dialer forgot password test cases(failed)</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">426,788</td><td></td><td></td></tr>
+<tr><td><a href="#t6">Normal Calling Test Cases(failed)</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">23</td><td class="num">6,128,960</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t7">Team Calling Test Cases(failed)</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">1,924,950</td><td></td><td></td></tr>
+<tr><td><a href="#t8">Call Queue Calling Test Cases(failed)</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">11</td><td class="num">3,764,209</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t9">Forward To Device Calling Test Cases(failed)</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,285,725</td><td></td><td></td></tr>
+<tr><td><a href="#t10">Call Blocking Test Cases(failed)</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">583,335</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t11">Outgoing Call Price limit Test Cases(failed)</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">2,410,539</td><td></td><td></td></tr>
+<tr><td><a href="#t12">Add and Delete numeber with dynamic chargebee subscription(failed)</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,346,670</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">44</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">51</th><th class="num">18,914,694</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Web signup test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.web.authentication.SignupTest</td><td><a href="#m0">verifyExpiredLink</a></td><td rowspan="1">1605381073306</td><td rowspan="1">278846</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Web login test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.web.authentication.LoginTest</td><td><a href="#m1">validation_for_BlockedUser</a></td><td rowspan="1">1605381421844</td><td rowspan="1">60831</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Web forgot password test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.web.authentication.ForgotPasswordTest</td><td><a href="#m2">reset_Password_successfully</a></td><td rowspan="1">1605381632295</td><td rowspan="1">191776</td></tr><tr><th colspan="4">Web forgot password test cases(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.CallHippo.web.authentication.ForgotPasswordTest</td><td><a href="#m3">reset_Password_twice</a></td><td rowspan="1">1605381825042</td><td rowspan="1">0</td></tr><tr><th colspan="4">Web forgot password test cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CallHippo.web.authentication.ForgotPasswordTest</td><td><a href="#m4">reset_Password_and_login_successfully</a></td><td rowspan="1">1605381590421</td><td rowspan="1">32268</td></tr><tr class="passedeven"><td><a href="#m5">reset_password_without_entering_any_value_in_reset_password_page</a></td><td rowspan="1">1605381552841</td><td rowspan="1">27836</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Web magic link test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.web.authentication.MagicLinkTest</td><td><a href="#m6">verify_MagicLink_with_blocked_user</a></td><td rowspan="1">1605381939394</td><td rowspan="1">81508</td></tr><tr><th colspan="4">Web magic link test cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CallHippo.web.authentication.MagicLinkTest</td><td><a href="#m7">verify_MagicLink_on_Gmail_inbox</a></td><td rowspan="1">1605381906414</td><td rowspan="1">23279</td></tr><tr class="passedeven"><td><a href="#m8">verify_email_validation_with_Registered_email</a></td><td rowspan="1">1605381892775</td><td rowspan="1">3870</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Dialer login test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.Dialer.authentication.DialerLoginTest</td><td><a href="#m9">number_not_assigned_user_check_validation</a></td><td rowspan="1">1605382030285</td><td rowspan="1">3150</td></tr><tr><th colspan="4">Dialer login test cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.CallHippo.Dialer.authentication.DialerLoginTest</td><td><a href="#m10">verify_Add_Credit_Button</a></td><td rowspan="1">1605382042597</td><td rowspan="1">12070</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Dialer forgot password test cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest</td><td><a href="#m11">reset_password_without_entering_any_value_in_reset_password_page</a></td><td rowspan="1">1605382229510</td><td rowspan="1">48244</td></tr><tr><th colspan="4">Dialer forgot password test cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="16">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest</td><td><a href="#m12">VerifyTitle</a></td><td rowspan="1">1605382116578</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m13">Verify_Email_is_required_field</a></td><td rowspan="1">1605382207638</td><td rowspan="1">1331</td></tr><tr class="passedeven"><td><a href="#m14">Verify_Forgot_Password_Fields</a></td><td rowspan="1">1605382145363</td><td rowspan="1">1221</td></tr><tr class="passedeven"><td><a href="#m15">Verify_Forgot_Password_Link_in_login_Page</a></td><td rowspan="1">1605382125615</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m16">Verify_with_non_registered_email</a></td><td rowspan="1">1605382217958</td><td rowspan="1">2314</td></tr><tr class="passedeven"><td><a href="#m17">Verify_with_registered_email1</a></td><td rowspan="1">1605382286777</td><td rowspan="1">2821</td></tr><tr class="passedeven"><td><a href="#m18">mismatch_Reset_Password_Validation</a></td><td rowspan="2">1605382298600</td><td rowspan="2">33520</td></tr><tr class="passedeven"><td><a href="#m19">mismatch_Reset_Password_Validation</a></td></tr><tr class="passedeven"><td><a href="#m20">reset_Password_and_login_successfully</a></td><td rowspan="1">1605382448570</td><td rowspan="1">32873</td></tr><tr class="passedeven"><td><a href="#m21">short_Password_Validation</a></td><td rowspan="1">1605382384835</td><td rowspan="1">54395</td></tr><tr class="passedeven"><td><a href="#m22">verify_Back_Signin_link</a></td><td rowspan="1">1605382134795</td><td rowspan="1">1237</td></tr><tr class="passedeven"><td><a href="#m23">verify_email_validation_with_Invalid_email</a></td><td rowspan="5">1605382175882</td><td rowspan="5">1233</td></tr><tr class="passedeven"><td><a href="#m24">verify_email_validation_with_Invalid_email</a></td></tr><tr class="passedeven"><td><a href="#m25">verify_email_validation_with_Invalid_email</a></td></tr><tr class="passedeven"><td><a href="#m26">verify_email_validation_with_Invalid_email</a></td></tr><tr class="passedeven"><td><a href="#m27">verify_email_validation_with_Invalid_email</a></td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">Normal Calling Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="23">com.CallHippo.Dialer.Calling.NormalCallingTest</td><td><a href="#m28">Outgoing_Completed_Incoming_IVR_Number_User_Missed</a></td><td rowspan="1">1605386657912</td><td rowspan="1">176230</td></tr><tr class="failedeven"><td><a href="#m29">Outgoing_Completed_Incoming_Missed_after_WelcomeMessage</a></td><td rowspan="1">1605382850400</td><td rowspan="1">90758</td></tr><tr class="failedeven"><td><a href="#m30">Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable</a></td><td rowspan="1">1605388221713</td><td rowspan="1">111560</td></tr><tr class="failedeven"><td><a href="#m31">Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added</a></td><td rowspan="1">1605387862505</td><td rowspan="1">85758</td></tr><tr class="failedeven"><td><a href="#m32">Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable</a></td><td rowspan="1">1605387125787</td><td rowspan="1">193369</td></tr><tr class="failedeven"><td><a href="#m33">Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable</a></td><td rowspan="1">1605388039742</td><td rowspan="1">90900</td></tr><tr class="failedeven"><td><a href="#m34">Outgoing_Completed_Incoming_Voicemail_by_Reject</a></td><td rowspan="1">1605383031808</td><td rowspan="1">107280</td></tr><tr class="failedeven"><td><a href="#m35">Outgoing_Completed_Incoming_Voicemail_by_UserClosed</a></td><td rowspan="1">1605383578046</td><td rowspan="1">183556</td></tr><tr class="failedeven"><td><a href="#m36">Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser</a></td><td rowspan="1">1605383333955</td><td rowspan="1">168911</td></tr><tr class="failedeven"><td><a href="#m37">Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running</a></td><td rowspan="1">1605384801428</td><td rowspan="1">233927</td></tr><tr class="failedeven"><td><a href="#m38">Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing</a></td><td rowspan="1">1605384371866</td><td rowspan="1">124279</td></tr><tr class="failedeven"><td><a href="#m39">Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing</a></td><td rowspan="1">1605384060425</td><td rowspan="1">219071</td></tr><tr class="failedeven"><td><a href="#m40">Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing</a></td><td rowspan="1">1605384587326</td><td rowspan="1">123522</td></tr><tr class="failedeven"><td><a href="#m41">Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing</a></td><td rowspan="1">1605383852047</td><td rowspan="1">117829</td></tr><tr class="failedeven"><td><a href="#m42">Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser</a></td><td rowspan="1">1605387409531</td><td rowspan="1">100007</td></tr><tr class="failedeven"><td><a href="#m43">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running</a></td><td rowspan="1">1605386438609</td><td rowspan="1">128666</td></tr><tr class="failedeven"><td><a href="#m44">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing</a></td><td rowspan="1">1605385326335</td><td rowspan="1">217119</td></tr><tr class="failedeven"><td><a href="#m45">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing</a></td><td rowspan="1">1605385636738</td><td rowspan="1">121185</td></tr><tr class="failedeven"><td><a href="#m46">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen</a></td><td rowspan="1">1605385849046</td><td rowspan="1">194880</td></tr><tr class="failedeven"><td><a href="#m47">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen</a></td><td rowspan="1">1605386135588</td><td rowspan="1">194822</td></tr><tr class="failedeven"><td><a href="#m48">Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed</a></td><td rowspan="1">1605385127271</td><td rowspan="1">108505</td></tr><tr class="failedeven"><td><a href="#m49">Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable</a></td><td rowspan="1">1605386924605</td><td rowspan="1">110451</td></tr><tr class="failedeven"><td><a href="#m50">Outgoing_Rejected_Incoming_Rejected</a></td><td rowspan="1">1605382676792</td><td rowspan="1">82911</td></tr><tr><th colspan="4">Normal Calling Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CallHippo.Dialer.Calling.NormalCallingTest</td><td><a href="#m51">Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_VoiceMail_Added</a></td><td rowspan="1">1605387583503</td><td rowspan="1">187770</td></tr><tr class="passedeven"><td><a href="#m52">Outgoing_Completed_Incoming_Voicemail_IVR_Number_Number_Custom_Unavailable</a></td><td rowspan="1">1605388424979</td><td rowspan="1">181688</td></tr></tbody>
+<tbody id="t7"><tr><th colspan="4">Team Calling Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.CallHippo.Dialer.Calling.TeamCallingTest</td><td><a href="#m53">IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail</a></td><td rowspan="1">1605390275732</td><td rowspan="1">56105</td></tr><tr class="failedeven"><td><a href="#m54">IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail</a></td><td rowspan="1">1605390475917</td><td rowspan="1">55644</td></tr><tr class="failedeven"><td><a href="#m55">Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail</a></td><td rowspan="1">1605389920238</td><td rowspan="1">209822</td></tr><tr class="failedeven"><td><a href="#m56">Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user</a></td><td rowspan="1">1605389080628</td><td rowspan="1">101102</td></tr><tr><th colspan="4">Team Calling Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.CallHippo.Dialer.Calling.TeamCallingTest</td><td><a href="#m57">Outgoing_Reject_Incoming_Reject_By_Both_Users</a></td><td rowspan="1">1605388852488</td><td rowspan="1">82834</td></tr><tr class="passedeven"><td><a href="#m58">Team_FixedOrder_Outgoing_Rejected_Incoming_Reject_By_Both_Users</a></td><td rowspan="1">1605389325768</td><td rowspan="1">103040</td></tr><tr class="passedeven"><td><a href="#m59">Team_simulteneously_Outgoing_Completed_Incoming_Missed_By_Both_Users_Voicemail</a></td><td rowspan="1">1605389572702</td><td rowspan="1">202037</td></tr></tbody>
+<tbody id="t8"><tr><th colspan="4">Call Queue Calling Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="11">com.CallHippo.Dialer.Calling.CallQueueCallingTest</td><td><a href="#m60">Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted</a></td><td rowspan="1">1605393830132</td><td rowspan="1">183469</td></tr><tr class="failedeven"><td><a href="#m61">Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted</a></td><td rowspan="1">1605394139506</td><td rowspan="1">155326</td></tr><tr class="failedeven"><td><a href="#m62">call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup</a></td><td rowspan="1">1605391340990</td><td rowspan="1">61372</td></tr><tr class="failedeven"><td><a href="#m63">call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted</a></td><td rowspan="1">1605391509673</td><td rowspan="1">135024</td></tr><tr class="failedeven"><td><a href="#m64">call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted</a></td><td rowspan="1">1605391785055</td><td rowspan="1">196069</td></tr><tr class="failedeven"><td><a href="#m65">call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted</a></td><td rowspan="1">1605393431043</td><td rowspan="1">272921</td></tr><tr class="failedeven"><td><a href="#m66">call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted</a></td><td rowspan="1">1605392417935</td><td rowspan="1">195244</td></tr><tr class="failedeven"><td><a href="#m67">call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail</a></td><td rowspan="1">1605391038079</td><td rowspan="1">111753</td></tr><tr class="failedeven"><td><a href="#m68">call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_</a></td><td rowspan="1">1605392124613</td><td rowspan="1">166997</td></tr><tr class="failedeven"><td><a href="#m69">call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted</a></td><td rowspan="1">1605392756828</td><td rowspan="1">194615</td></tr><tr class="failedeven"><td><a href="#m70">call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail</a></td><td rowspan="1">1605390806481</td><td rowspan="1">105836</td></tr><tr><th colspan="4">Call Queue Calling Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.CallHippo.Dialer.Calling.CallQueueCallingTest</td><td><a href="#m71">call_queue_user_busy_with_Incoming_ongoing_call_Incoming_secondqueued_call_served_to_user_and_Accepted</a></td><td rowspan="1">1605393095312</td><td rowspan="1">209845</td></tr></tbody>
+<tbody id="t9"><tr><th colspan="4">Forward To Device Calling Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CallHippo.Dialer.Calling.ForwordToDeviceTest</td><td><a href="#m72">Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser</a></td><td rowspan="1">1605395040479</td><td rowspan="1">132293</td></tr><tr><th colspan="4">Forward To Device Calling Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CallHippo.Dialer.Calling.ForwordToDeviceTest</td><td><a href="#m73">Outgoing_Completed_Incoming_Voicemail_User_Closed_By_FTD</a></td><td rowspan="1">1605394665029</td><td rowspan="1">160300</td></tr><tr class="passedeven"><td><a href="#m74">Team_simulteneously_Outgoing_Reject_Incoming_Reject_By_FdTD_of_Both_Users</a></td><td rowspan="1">1605395406311</td><td rowspan="1">169501</td></tr></tbody>
+<tbody id="t10"><tr><th colspan="4">Call Blocking Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.CallHippo.web.settings.CallBlockingTest</td><td><a href="#m75">Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings</a></td><td rowspan="1">1605396152535</td><td rowspan="1">13637</td></tr><tr class="failedeven"><td><a href="#m76">Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected</a></td><td rowspan="1">1605396002670</td><td rowspan="1">37434</td></tr><tr><th colspan="4">Call Blocking Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CallHippo.web.settings.CallBlockingTest</td><td><a href="#m77">validation_for_duplicate_number</a></td><td rowspan="1">1605395879695</td><td rowspan="1">10412</td></tr><tr class="passedeven"><td><a href="#m78">verify_special_character_not_allow_in_number</a></td><td rowspan="1">1605395763478</td><td rowspan="1">8584</td></tr></tbody>
+<tbody id="t11"><tr><th colspan="4">Outgoing Call Price limit Test Cases(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.CallHippo.web.settings.PriceLimitTest</td><td><a href="#m79">validate_PriceLimit_Success_message_for_Platinum_Annually_Plan</a></td><td rowspan="1">1605397221331</td><td rowspan="1">52851</td></tr><tr class="failedeven"><td><a href="#m80">validate_PriceLimit_Success_message_for_bronze_Annually_Plan</a></td><td rowspan="1">1605396681112</td><td rowspan="1">54013</td></tr><tr class="failedeven"><td><a href="#m81">validate_PriceLimit_Success_message_for_silver_Annually_Plan</a></td><td rowspan="1">1605397040439</td><td rowspan="1">54055</td></tr><tr class="failedeven"><td><a href="#m82">validate_PriceLimit_Success_message_for_silver_Monthly_Plan</a></td><td rowspan="1">1605396861560</td><td rowspan="1">52570</td></tr><tr><th colspan="4">Outgoing Call Price limit Test Cases(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.CallHippo.web.settings.PriceLimitTest</td><td><a href="#m83">dialer_validate_PriceLimit_Error_Message_Call_From_AllCalls</a></td><td rowspan="1">1605398169642</td><td rowspan="1">74606</td></tr><tr class="passedeven"><td><a href="#m84">dialer_validate_PriceLimit_Error_Message_Call_From_CallDetailPage</a></td><td rowspan="1">1605397971477</td><td rowspan="1">76477</td></tr><tr class="passedeven"><td><a href="#m85">dialer_validate_PriceLimit_Error_Message_Call_From_CallPlanner</a></td><td rowspan="1">1605398365808</td><td rowspan="1">88684</td></tr><tr class="passedeven"><td><a href="#m86">dialer_validate_PriceLimit_Error_Message_Call_From_DialPad</a></td><td rowspan="1">1605397567794</td><td rowspan="1">89006</td></tr><tr class="passedeven"><td><a href="#m87">dialer_validate_PriceLimit_Error_Message_Call_From_Redial</a></td><td rowspan="1">1605397778262</td><td rowspan="1">71281</td></tr><tr class="passedeven"><td><a href="#m88">validate_PriceLimit_Is_Not_Set</a></td><td rowspan="1">1605398576492</td><td rowspan="1">225</td></tr><tr class="passedeven"><td><a href="#m89">validate_PriceLimit_Success_message_for_bronze_Monthly_Plan</a></td><td rowspan="1">1605396413653</td><td rowspan="1">145650</td></tr><tr class="passedeven"><td><a href="#m90">validate_PriceLimit_Update_Message_for_Platinum_Annually_Plan</a></td><td rowspan="1">1605397400393</td><td rowspan="1">46242</td></tr></tbody>
+<tbody id="t12"><tr><th colspan="4">Add and Delete numeber with dynamic chargebee subscription(failed) &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.CallHippo.web.numberAndUserSubscription.AddNumberTest</td><td><a href="#m91">Delete_Standard_number_when_number_having_different_price_Plan_period_annually</a></td><td rowspan="1">1605399659202</td><td rowspan="1">267217</td></tr><tr class="passedeven"><td><a href="#m92">Delete_and_add_Standard_number_in_same_month_having_different_price_Plan_period_monthly</a></td><td rowspan="1">1605398937835</td><td rowspan="1">297743</td></tr><tr class="passedeven"><td><a href="#m93">Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_Annually</a></td><td rowspan="1">1605399245489</td><td rowspan="1">403771</td></tr><tr class="passedeven"><td><a href="#m94">Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_monthly</a></td><td rowspan="1">1605398660283</td><td rowspan="1">267989</td></tr><tr class="passedeven"><td><a href="#m95">signup1</a></td><td rowspan="1">1605398589717</td><td rowspan="1">60721</td></tr></tbody>
+</table>
+<h2>Web signup test cases(failed)</h2><h3 id="m0">com.CallHippo.web.authentication.SignupTest#verifyExpiredLink</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Verify&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bfd33df066fa8a7b352108c0a794fee5
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Verify&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.CallHippo.web.authentication.SignupPage.gClickOnRecentMagicLoginlink(SignupPage.java:392)
+	at com.CallHippo.web.authentication.SignupPage.validateClickOnExpireLinkFromGmail(SignupPage.java:321)
+	at com.CallHippo.web.authentication.SignupTest.verifyExpiredLink(SignupTest.java:287)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Web login test cases(failed)</h2><h3 id="m1">com.CallHippo.web.authentication.LoginTest#validation_for_BlockedUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Subscribe | Callhippo.com&quot;. Current title: &quot;Login | Callhippo.com&quot; (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc1553df4951f8bae65465ff68aac5ec
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.web.authentication.LoginPage.verifySubscribeTitle(LoginPage.java:281)
+	at com.CallHippo.web.authentication.LoginTest.validation_for_BlockedUser(LoginTest.java:170)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Web forgot password test cases(failed)</h2><h3 id="m2">com.CallHippo.web.authentication.ForgotPasswordTest#reset_Password_successfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;confirmPassword&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.web.authentication.ForgotPasswordPage.enterConfirmPassword(ForgotPasswordPage.java:496)
+	at com.CallHippo.web.authentication.ForgotPasswordTest.reset_Password_successfully(ForgotPasswordTest.java:254)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;confirmPassword&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1065fcecff3d9cb38651c165e4538e63
+*** Element info: {Using=xpath, value=//input[@name=&apos;confirmPassword&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.CallHippo.web.authentication.ForgotPasswordTest#reset_Password_twice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ForgotPasswordTest.reset_Password_twice()[pri:14, instance:com.CallHippo.web.authentication.ForgotPasswordTest@4097cac] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.CallHippo.web.authentication.ForgotPasswordTest#reset_Password_and_login_successfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.CallHippo.web.authentication.ForgotPasswordTest#reset_password_without_entering_any_value_in_reset_password_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Web magic link test cases(failed)</h2><h3 id="m6">com.CallHippo.web.authentication.MagicLinkTest#verify_MagicLink_with_blocked_user</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to be &quot;Subscribe | Callhippo.com&quot;. Current title: &quot;Login | Callhippo.com&quot; (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59257}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 05288a32acd948bad70f1a23e4ca6729
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.web.authentication.MagicLinkPage.validateErrormessageOfBlockedUser(MagicLinkPage.java:161)
+	at com.CallHippo.web.authentication.MagicLinkTest.verify_MagicLink_with_blocked_user(MagicLinkTest.java:184)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.CallHippo.web.authentication.MagicLinkTest#verify_MagicLink_on_Gmail_inbox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.CallHippo.web.authentication.MagicLinkTest#verify_email_validation_with_Registered_email</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Dialer login test cases(failed)</h2><h3 id="m9">com.CallHippo.Dialer.authentication.DialerLoginTest#number_not_assigned_user_check_validation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerLoginTest.number_not_assigned_user_check_validation(DialerLoginTest.java:255)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.CallHippo.Dialer.authentication.DialerLoginTest#verify_Add_Credit_Button</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Dialer forgot password test cases(failed)</h2><h3 id="m11">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#reset_password_without_entering_any_value_in_reset_password_page</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.Dialer.authentication.DialerForgotPasswordTest.reset_password_without_entering_any_value_in_reset_password_page(DialerForgotPasswordTest.java:197)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#VerifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#Verify_Email_is_required_field</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#Verify_Forgot_Password_Fields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#Verify_Forgot_Password_Link_in_login_Page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#Verify_with_non_registered_email</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#Verify_with_registered_email1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#mismatch_Reset_Password_Validation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>12345678</td><td>123456789</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#mismatch_Reset_Password_Validation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>!@#$%^&amp;*</td><td>!#@$%^&amp;*</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#reset_Password_and_login_successfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#short_Password_Validation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_Back_Signin_link</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_email_validation_with_Invalid_email</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>test@</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_email_validation_with_Invalid_email</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>test.1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_email_validation_with_Invalid_email</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>test</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_email_validation_with_Invalid_email</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>test@t.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.CallHippo.Dialer.authentication.DialerForgotPasswordTest#verify_email_validation_with_Invalid_email</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>test@t</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Normal Calling Test Cases(failed)</h2><h3 id="m28">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_IVR_Number_User_Missed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForIncomingCallingScreen(DialerIndex.java:412)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_IVR_Number_User_Missed(NormalCallingTest.java:4158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Missed_after_WelcomeMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage(NormalCallingTest.java:1010)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Completed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6092)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Reject_after_WelcomeMessage_VoiceMail_Added(NormalCallingTest.java:5770)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateDurationInCallingScreen(DialerIndex.java:375)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_VoiceMail_User_Custom_Unavailable(NormalCallingTest.java:5119)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@test-automation=&apos;call_screen_duration&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation=&apos;call_screen_duration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_after_WelcomeMessage_User_Unavailable(NormalCallingTest.java:6005)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_Reject</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.000
+  (Session info: chrome=86.0.4240.193)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 522f019f2debc1410bc64f9c69ca173b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_Reject(NormalCallingTest.java:1407)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_UserClosed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateDurationInCallingScreen(DialerIndex.java:375)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_UserClosed(NormalCallingTest.java:1929)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@test-automation=&apos;call_screen_duration&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation=&apos;call_screen_duration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateDurationInCallingScreen(DialerIndex.java:375)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_loggedoutUser(NormalCallingTest.java:1703)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@test-automation=&apos;call_screen_duration&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation=&apos;call_screen_duration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateDurationInCallingScreen(DialerIndex.java:375)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_ACW_Screen_is_Running(NormalCallingTest.java:2610)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@test-automation=&apos;call_screen_duration&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation=&apos;call_screen_duration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ongoing(NormalCallingTest.java:2436)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m39">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@test-automation=&apos;call_screen_duration&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateDurationInCallingScreen(DialerIndex.java:375)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Incoming_call_Ringing(NormalCallingTest.java:2264)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@test-automation=&apos;call_screen_duration&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//span[@test-automation=&apos;call_screen_duration&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m40">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_Outgoing_call_Ongoing(NormalCallingTest.java:2551)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m41">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Completed_Incoming_Voicemail_by_user_busy_with_outgoing_Ringing(NormalCallingTest.java:2207)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m42">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Reject_Incoming_CallNotSetup_by_loggedoutUser(NormalCallingTest.java:5248)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m43">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_ACW_Screen_is_Running(NormalCallingTest.java:3493)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m44">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_Outgoing_Ringing(NormalCallingTest.java:3070)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m45">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_Ringing(NormalCallingTest.java:3182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m46">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;backSpace&quot;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForDialerPage(DialerIndex.java:216)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_incoming_call_Ongoing_Screen(NormalCallingTest.java:3261)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;backSpace&quot;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id=&quot;backSpace&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m47">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;backSpace&quot;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForDialerPage(DialerIndex.java:216)
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Busy_with_outgoing_call_Ongoing_Screen(NormalCallingTest.java:3364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;backSpace&quot;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e63440561963449849cef6634091ed6d
+*** Element info: {Using=xpath, value=//*[@id=&quot;backSpace&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m48">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_By_user_Closed(NormalCallingTest.java:2858)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m49">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_CallNotSetup_User_Custom_Unavailable(NormalCallingTest.java:5034)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m50">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Rejected_Incoming_Rejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [No Answer] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.NormalCallingTest.Outgoing_Rejected_Incoming_Rejected(NormalCallingTest.java:614)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m51">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Missed_after_WelcomeMessage_VoiceMail_Added</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m52">com.CallHippo.Dialer.Calling.NormalCallingTest#Outgoing_Completed_Incoming_Voicemail_IVR_Number_Number_Custom_Unavailable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Team Calling Test Cases(failed)</h2><h3 id="m53">com.CallHippo.Dialer.Calling.TeamCallingTest#IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label test-automation=&quot;call_screen_dialpad_btn&quot; class=&quot;clropgrey optionindivwid cursor false div_disabled&quot; for=&quot;nameDialpadInput&quot;&gt;...&lt;/label&gt; is not clickable at point (799, 460). Other element would receive the click: &lt;div class=&quot;firstoptiondiv&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=86.0.4240.193)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.CallHippo.Dialer.DialerIndex.clickOnDialPad(DialerIndex.java:166)
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_Fixed_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11018)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m54">com.CallHippo.Dialer.Calling.TeamCallingTest#IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label test-automation=&quot;call_screen_dialpad_btn&quot; class=&quot;clropgrey optionindivwid cursor false div_disabled&quot; for=&quot;nameDialpadInput&quot;&gt;...&lt;/label&gt; is not clickable at point (799, 460). Other element would receive the click: &lt;div class=&quot;firstoptiondiv&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=86.0.4240.193)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa646dddde5825358c8a7b459c4fbdb9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.CallHippo.Dialer.DialerIndex.clickOnDialPad(DialerIndex.java:166)
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.IVR_Team_RoundRobin_Incoming_Missed_By_Both_Users_UserVoicemail(TeamCallingTest.java:11125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m55">com.CallHippo.Dialer.Calling.TeamCallingTest#Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;callendndesbtn  rmvunderline tglmm&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.clickOnIncomingRejectButton(DialerIndex.java:160)
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_FixedOrder_Outgoing_Completed_Incoming_Reject_By_One_User_Missed_By_Another_User_Vociemail(TeamCallingTest.java:10798)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;callendndesbtn  rmvunderline tglmm&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63236}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70aea226d36a38f2b76b95a6b3e7d9e3
+*** Element info: {Using=xpath, value=//div[@class=&apos;callendndesbtn  rmvunderline tglmm&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m56">com.CallHippo.Dialer.Calling.TeamCallingTest#Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Missed] but found [Rejected]
+	at com.CallHippo.Dialer.Calling.TeamCallingTest.Team_simulteneously_Outgoing_No_Answer_Incoming_Reject_By_main_user_Missed_By_sub_user(TeamCallingTest.java:1766)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m57">com.CallHippo.Dialer.Calling.TeamCallingTest#Outgoing_Reject_Incoming_Reject_By_Both_Users</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m58">com.CallHippo.Dialer.Calling.TeamCallingTest#Team_FixedOrder_Outgoing_Rejected_Incoming_Reject_By_Both_Users</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m59">com.CallHippo.Dialer.Calling.TeamCallingTest#Team_simulteneously_Outgoing_Completed_Incoming_Missed_By_Both_Users_Voicemail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Call Queue Calling Test Cases(failed)</h2><h3 id="m60">com.CallHippo.Dialer.Calling.CallQueueCallingTest#Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForIncomingCallingScreen(DialerIndex.java:412)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Number_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:4994)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: abafe1f8c017d3d05989642d0f00841e
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m61">com.CallHippo.Dialer.Calling.CallQueueCallingTest#Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: --Recording URL in web2 Activityfeed page-- expected [false] but found [true]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.Outgoing_Completed_Incoming_call_IVR_Team_Simultenious_busy_with_Incoming_ongoing_call_queued_call_served_to_user_and_Accepted(CallQueueCallingTest.java:5268)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m62">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: --Client number in web2 Activityfeed page-- expected [+19897188001] but found [+18044094980]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_All_User_Logout_1stincoming_call_callNotSetup_2ndincoming_call_callNotSetup(CallQueueCallingTest.java:2907)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m63">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Multi_user_busy_with_Incoming_ongoing_call_On1stNumber_subUser_AlwaysClosed_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser2ndNumber_and_Accepted(CallQueueCallingTest.java:3061)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m64">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForIncomingCallingScreen(DialerIndex.java:412)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_Team_user_busy_with_Incoming_ongoing_call_On1stNumber_2ndUser_bussy_with_Incoming_call_On2ndNumber_queuedCall_served_to_mainUser_and_Accepted(CallQueueCallingTest.java:3150)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m65">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //h3[@test-automation=&apos;call_detail_num&apos;]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.validateNumberInCallDetail(DialerIndex.java:337)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_firstQueued_call_served_to_user_and_Miised_secondQueued_onSecondnumber_served_to_user_and_Accepted(CallQueueCallingTest.java:4759)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[@test-automation=&apos;call_detail_num&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e370a71690b74d55055d97eaea3d95b4
+*** Element info: {Using=xpath, value=//h3[@test-automation=&apos;call_detail_num&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m66">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForIncomingCallingScreen(DialerIndex.java:412)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3504)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m67">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Incoming_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1849)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m68">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: --Department name of dialer 2 all calls page-- expected [acc2 number2] but found [acc2 number]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_1queued_callOn1stNumber_served_to_user_and_Accept_2queued_callOn2ndNumber_served_to_user_and_Accepted_(CallQueueCallingTest.java:3423)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m69">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&apos; (tried for 100 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.CallHippo.Dialer.DialerIndex.waitForIncomingCallingScreen(DialerIndex.java:412)
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_call_2ndUser_Login_queued_call_served_to_2nduser_and_Accepted(CallQueueCallingTest.java:3600)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d31b3ced5d5da21c8188d7b746008c23
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;callbtn_green rmvunderline tglmm&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m70">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Voicemail status not matched expected [true] but found [false]
+	at com.CallHippo.Dialer.Calling.CallQueueCallingTest.call_queue_user_busy_with_Outgoing_ongoing_call_Incoming_queued_remaing_in_Queue_and_Voicemail(CallQueueCallingTest.java:1619)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m71">com.CallHippo.Dialer.Calling.CallQueueCallingTest#call_queue_user_busy_with_Incoming_ongoing_call_Incoming_secondqueued_call_served_to_user_and_Accepted</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Forward To Device Calling Test Cases(failed)</h2><h3 id="m72">com.CallHippo.Dialer.Calling.ForwordToDeviceTest#Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Rejected] but found [Missed]
+	at com.CallHippo.Dialer.Calling.ForwordToDeviceTest.Outgoing_No_Anawer_Incoming_Reject_By_Forward_To_Device_OF_SubUser(ForwordToDeviceTest.java:1752)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m73">com.CallHippo.Dialer.Calling.ForwordToDeviceTest#Outgoing_Completed_Incoming_Voicemail_User_Closed_By_FTD</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m74">com.CallHippo.Dialer.Calling.ForwordToDeviceTest#Team_simulteneously_Outgoing_Reject_Incoming_Reject_By_FdTD_of_Both_Users</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Call Blocking Test Cases(failed)</h2><h3 id="m75">com.CallHippo.web.settings.CallBlockingTest#Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.CallHippo.web.settings.CallBlockingTest.Verify_Blacklist_Number_Added_In_Dialer_Display_In_Web_Settings(CallBlockingTest.java:704)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m76">com.CallHippo.web.settings.CallBlockingTest#Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Rejected] but found [Cancelled]
+	at com.CallHippo.web.settings.CallBlockingTest.Web_Add_2ndUser_Number_To_Callblocking_1stuser_Incoming_CallNotSetup_2ndUser_Outgoing_Rejected(CallBlockingTest.java:379)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m77">com.CallHippo.web.settings.CallBlockingTest#validation_for_duplicate_number</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m78">com.CallHippo.web.settings.CallBlockingTest#verify_special_character_not_allow_in_number</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Outgoing Call Price limit Test Cases(failed)</h2><h3 id="m79">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Success_message_for_Platinum_Annually_Plan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.CallHippo.web.authentication.SignupPage.gloginGmail(SignupPage.java:356)
+	at com.CallHippo.web.authentication.SignupPage.ValidateVerifyButtonOnGmail(SignupPage.java:331)
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_Platinum_Annually_Plan(PriceLimitTest.java:574)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m80">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Success_message_for_bronze_Annually_Plan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.CallHippo.web.authentication.SignupPage.gloginGmail(SignupPage.java:356)
+	at com.CallHippo.web.authentication.SignupPage.ValidateVerifyButtonOnGmail(SignupPage.java:331)
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_bronze_Annually_Plan(PriceLimitTest.java:389)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m81">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Success_message_for_silver_Annually_Plan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.CallHippo.web.authentication.SignupPage.gloginGmail(SignupPage.java:356)
+	at com.CallHippo.web.authentication.SignupPage.ValidateVerifyButtonOnGmail(SignupPage.java:331)
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Annually_Plan(PriceLimitTest.java:512)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m82">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Success_message_for_silver_Monthly_Plan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;identifierId&apos;]&quot;}
+  (Session info: chrome=86.0.4240.193)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2UA8D8B&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.193, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\APPITS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d087a3b49fb90897524ea97b2392f73
+*** Element info: {Using=xpath, value=//input[@id=&apos;identifierId&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.CallHippo.web.authentication.SignupPage.gloginGmail(SignupPage.java:356)
+	at com.CallHippo.web.authentication.SignupPage.ValidateVerifyButtonOnGmail(SignupPage.java:331)
+	at com.CallHippo.web.settings.PriceLimitTest.LoginGmailAndConfirmYourMail(PriceLimitTest.java:263)
+	at com.CallHippo.web.settings.PriceLimitTest.validate_PriceLimit_Success_message_for_silver_Monthly_Plan(PriceLimitTest.java:451)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m83">com.CallHippo.web.settings.PriceLimitTest#dialer_validate_PriceLimit_Error_Message_Call_From_AllCalls</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m84">com.CallHippo.web.settings.PriceLimitTest#dialer_validate_PriceLimit_Error_Message_Call_From_CallDetailPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m85">com.CallHippo.web.settings.PriceLimitTest#dialer_validate_PriceLimit_Error_Message_Call_From_CallPlanner</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m86">com.CallHippo.web.settings.PriceLimitTest#dialer_validate_PriceLimit_Error_Message_Call_From_DialPad</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m87">com.CallHippo.web.settings.PriceLimitTest#dialer_validate_PriceLimit_Error_Message_Call_From_Redial</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m88">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Is_Not_Set</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m89">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Success_message_for_bronze_Monthly_Plan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m90">com.CallHippo.web.settings.PriceLimitTest#validate_PriceLimit_Update_Message_for_Platinum_Annually_Plan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Add and Delete numeber with dynamic chargebee subscription(failed)</h2><h3 id="m91">com.CallHippo.web.numberAndUserSubscription.AddNumberTest#Delete_Standard_number_when_number_having_different_price_Plan_period_annually</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m92">com.CallHippo.web.numberAndUserSubscription.AddNumberTest#Delete_and_add_Standard_number_in_same_month_having_different_price_Plan_period_monthly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m93">com.CallHippo.web.numberAndUserSubscription.AddNumberTest#Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_Annually</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m94">com.CallHippo.web.numberAndUserSubscription.AddNumberTest#Delete_higher_amount_Standard_number_when_number_having_different_price_Plan_period_monthly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m95">com.CallHippo.web.numberAndUserSubscription.AddNumberTest#signup1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
