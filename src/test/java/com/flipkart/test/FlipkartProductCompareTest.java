@@ -72,7 +72,7 @@ public class FlipkartProductCompareTest {
 	@AfterTest(alwaysRun = true)
 	public void tearDown() {
 
-		driver.quit();
+//		driver.quit();
 
 	}
 
